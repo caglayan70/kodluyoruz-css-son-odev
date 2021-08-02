@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+       .container{
+           display: flex;
+           justify-content: space-between;
+           
+       }
+       .container ul{
+           display: flex;
+           margin: 0.75rem;
+       }
+       .container ul li{
+           padding: 0.75rem;
+           list-style-type: none;
+       }
+       .container .sign{
+        background-color: blue;
+        color: #fff;
+        padding: 0.75rem;
+        border-radius: 4px;
+       }
+       .home{
+           display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 1rem;
+       }
+       .home .image{
+           padding: 1rem;
+       }
+       .home #name{
+        width: 50%;
+           padding: 0.8rem 0.5rem;
+           border-radius: 4px;
+           border: 1px solid #a7a7a7;
+           border-radius: 7px;
+          
+       }
+       
+       .home .submit{
+           margin: 0.75rem;
+           padding: 0.75rem;
+          
+       }
+       .home .search{
+           margin-right: 0.75rem;
+           padding: 0.5rem;
+           border-radius: 7px;
+           border: 1px solid #f2f2f2;
+          
+           
+       }
+       .home .lucky{
+           padding: 0.5rem;
+           border-radius: 7px;
+           border: 1px solid #f2f2f2;
+           
+       }
+       #foot{
+           background-color: #f2f2f2;
+           margin-top: 12rem;
+       }
+       .input-icon{
+           width: 100%;
+         display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           position: relative;
+       }
+       .input-icon #fas{
+           position: absolute;
+           left: 380px;
+           top: 15px;
+       }
+       .input-icon #fa{
+           position: absolute;
+           right: 380px;
+       }
+      
+
+      
+      
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li>About</li>
+                    <li>Store</li>
+                </ul>
+                <ul>
+                    <li>Gmail</li>
+                    <li>Images</li>
+                    <li><i class="fas fa-bars"></i></li>
+                    <li class="sign">Sign in</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+         <div class="home">
+                <div class="image">
+                <img src="https://bilgi.zone/wp-content/uploads/2020/01/6_logo_predesign.jpg" alt="">
+                </div>
+                    
+                    <div class="input-icon">
+                <input type="text"name="name"id="name">
+                <i class="fas fa-search" id="fas"></i>
+                <i class="fas fa-microphone" id="fa"></i>
+                    </div>     
+          
+              
+                    
+                   
+            
+               
+            <div class="submit">
+            <input type="submit" class="search" value="Google Search">
+            <input type="submit" class="lucky" value="I'm Feeling Lucky">
+           
+            </div> 
+            </div>
+    </section>
+           
+           <footer>
+               <form id="foot">
+                   <div class="container">
+                       <ul>
+                           <li>Adversiting</li>
+                           <li>Business</li>
+                           <li>How Search Works</li>
+                       </ul>
+                       <ul>
+                           <li>Privacy</li>
+                           <li>Terms</li>
+                           <li>Settings</li>
+                       </ul>
+                   </div>
+               </form>
+           </footer>
+            
+            
+        
+   
+    
+</body>
+</html>
